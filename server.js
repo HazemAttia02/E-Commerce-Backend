@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5001;
 
 app.use(
   cors({
-    origin: "https://e-commerce-backend-dauf.onrender.com",
+    origin: "https://easyshop-mfj1.onrender.com",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
